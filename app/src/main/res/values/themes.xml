@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom theme for your app -->
+    <style name="Theme.TestProj" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Define theme colors -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="CircularProgressBar" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circular_progress_bar</item>
+    </style>
+</resources>
